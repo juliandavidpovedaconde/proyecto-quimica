@@ -135,19 +135,53 @@ flowchart TD
     L --> M[Formatear ecuación balanceada]
     M --> N[Mostrar resultado final]
     N --> O[Fin del Programa]
-# bibliografia
-# Bibliografía y citas
 
-Este proyecto utiliza los siguientes recursos académicos y técnicos:
+---
 
-- **ScipyPython (2017)**: *Balancing a Chemical Reaction*. Tutorial comprensión de matrices y np.linalg.solve :contentReference[oaicite:1]{index=1}.
-- **Sharma, Bhattacharyya & Bora (2025)**: "Matrix method for balancing chemical equations..." – eliminacion gaussiana en reacciones inorgánicas :contentReference[oaicite:2]{index=2}.
-- **Gabriel & Onwuka (2015)**: "Balancing of Chemical Equations Using Matrix Algebra" – null‐space y reducción escalonada :contentReference[oaicite:3]{index=3}.
-- **Thorne (2011)**: "An Innovative Approach..." – uso de null space para hallar coeficientes :contentReference[oaicite:4]{index=4}.
-- **Barrett (2019)**: "Using Matrices to Balance Chemical Reactions..." – enfoque con ecuaciones diofánticas.
-- **Chacón & Apte (2023)**: "A Python Code Algorithm..." – implementación con NumPy :contentReference[oaicite:5]{index=5}.
-- **chemical‑eq‑balancer (2024)**: paquete PyPI para balancear ecuaciones y exponer matrices :contentReference[oaicite:6]{index=6}.
-- **Wikipedia – Chemical equation**: explicación formal del método matricial :contentReference[oaicite:7]{index=7}.
-- **Wikipedia – NumPy**: soporte para álgebra lineal y SVD :contentReference[oaicite:8]{index=8}.
+
+```markdown
+# Bibliografía y Citas
+
+```bibtex
+@misc{scipython_balancing_2017,
+  title = {Balancing a Chemical Reaction},
+  author = {{Scipython}},
+  year = {2017},
+  howpublished = {SciPython tutorial},
+  note = {Ejemplo con matrices y np.linalg.solve}
+}
+
+@article{thorne_nullspace_2011,
+  title = {An Innovative Approach to Balancing Chemical‑Reaction Equations},
+  author = {Thorne, L. R.},
+  journal = {arXiv / Chem. Educator},
+  year = {2011},
+  note = {Uso del null‑space mediante inversión matricial}
+}
+
+@article{bandzar_python_2020,
+  title = {Balancing Chemical Equations With Python},
+  author = {Bandzar, Mohammad‑Ali},
+  journal = {Medium (The Startup)},
+  year = {2020},
+  note = {Parsing con regex y solución matricial}
+}
+
+@misc{wiki_chemical_equation_2025,
+  title = {Chemical equation},
+  howpublished = {Wikipedia},
+  year = {2025},
+  note = {Método matricial y kernel en álgebra lineal}
+}
+
+@article{chacon_apte_python_2023,
+  title = {A Python Code Algorithm for Balancing Chemical Equations ...},
+  author = {Chacón, Diego and Apte, Shireesh P.},
+  journal = {Journal of High School Science},
+  volume = {7}, number = {2},
+  year = {2023},
+  note = {Implementación práctica con NumPy}
+}
+
 
 
