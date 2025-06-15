@@ -135,5 +135,19 @@ flowchart TD
     L --> M[Formatear ecuación balanceada]
     M --> N[Mostrar resultado final]
     N --> O[Fin del Programa]
+# bibliografia
+# Bibliografía y citas
+
+Este proyecto utiliza los siguientes recursos académicos y técnicos:
+
+- **ScipyPython (2017)**: *Balancing a Chemical Reaction*. Tutorial comprensión de matrices y np.linalg.solve :contentReference[oaicite:1]{index=1}.
+- **Sharma, Bhattacharyya & Bora (2025)**: "Matrix method for balancing chemical equations..." – eliminacion gaussiana en reacciones inorgánicas :contentReference[oaicite:2]{index=2}.
+- **Gabriel & Onwuka (2015)**: "Balancing of Chemical Equations Using Matrix Algebra" – null‐space y reducción escalonada :contentReference[oaicite:3]{index=3}.
+- **Thorne (2011)**: "An Innovative Approach..." – uso de null space para hallar coeficientes :contentReference[oaicite:4]{index=4}.
+- **Barrett (2019)**: "Using Matrices to Balance Chemical Reactions..." – enfoque con ecuaciones diofánticas.
+- **Chacón & Apte (2023)**: "A Python Code Algorithm..." – implementación con NumPy :contentReference[oaicite:5]{index=5}.
+- **chemical‑eq‑balancer (2024)**: paquete PyPI para balancear ecuaciones y exponer matrices :contentReference[oaicite:6]{index=6}.
+- **Wikipedia – Chemical equation**: explicación formal del método matricial :contentReference[oaicite:7]{index=7}.
+- **Wikipedia – NumPy**: soporte para álgebra lineal y SVD :contentReference[oaicite:8]{index=8}.
 
 
