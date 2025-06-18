@@ -135,6 +135,15 @@ flowchart TD
     L --> M[Formatear ecuación balanceada]
     M --> N[Mostrar resultado final]
     N --> O[Fin del Programa]
+```
 
+---
 
+## Bibliografía
+
+1.  **Scipython** (2017). *Balancing a Chemical Reaction*. Tutorial de SciPython. Nota: Ejemplo con matrices y `np.linalg.solve`.
+2.  **Thorne, L. R.** (2011). "An Innovative Approach to Balancing Chemical‑Reaction Equations". *arXiv / Chem. Educator*. Nota: Uso del *null-space* mediante inversión matricial.
+3.  **Bandzar, Mohammad‑Ali** (2020). "Balancing Chemical Equations With Python". *Medium (The Startup)*. Nota: Parsing con regex y solución matricial.
+4.  **Wikipedia** (Consultado en 2024). *Chemical equation*. Nota: Describe el método matricial y el concepto de kernel en álgebra lineal.
+5.  **Chacón, Diego y Apte, Shireesh P.** (2023). "A Python Code Algorithm for Balancing Chemical Equations ...". *Journal of High School Science*, 7(2). Nota: Implementación práctica con NumPy.
 
